@@ -1,0 +1,82 @@
+
+.pixelify-sans{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bellota-text-light {
+  font-family: "Bellota Text", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.bellota-text-regular {
+  font-family: "Bellota Text", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bellota-text-bold {
+  font-family: "Bellota Text", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.funnel-display {
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body{
+    background-color: rgb(25, 27, 29);
+    
+}
+
+#intro{
+    margin-top: 230px;
+    margin-left: 115px;
+    color: rgb(254, 254, 247);
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 300;
+    color: rgb(216, 193, 165);
+}
+
+#intro-name{
+    font-family: "Pixelify Sans";
+    font-size: 50px;
+}
+
+#bold-text{
+    font-weight: 700;
+}
+
+#normal{
+    color: rgb(216, 193, 165);
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+#red{
+    color: rgb(234, 89, 89);
+    margin-left: 60%;
+    font-family: "Funnel Display";
+    font-size: 18px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 55%;
+}
+
+.right {
+  width: 45%;
+}
