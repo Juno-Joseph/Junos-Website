@@ -5,25 +5,21 @@
   font-weight: 400;
   font-style: normal;
 }
-
 .bellota-text-light {
   font-family: "Bellota Text", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
-
 .bellota-text-regular {
   font-family: "Bellota Text", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
 .bellota-text-bold {
   font-family: "Bellota Text", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
-
 .funnel-display {
   font-family: "Funnel Display", sans-serif;
   font-optical-sizing: auto;
@@ -33,50 +29,58 @@
 
 body{
     background-color: rgb(25, 27, 29);
-    
 }
 
-#intro{
-    margin-top: 230px;
-    margin-left: 115px;
-    color: rgb(254, 254, 247);
-    font-family: "Bellota Text", sans-serif;
-    font-weight: 300;
-    color: rgb(216, 193, 165);
+/* Intro Section*/
+#Hello{
+  display: flex;
+  border: 8px solid white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  flex-wrap: wrap;
 }
 
-#intro-name{
-    font-family: "Pixelify Sans";
-    font-size: 50px;
+.intro{
+  color: rgb(254, 254, 247);
+  font-family: "Bellota Text", sans-serif;
+  font-weight: 300;
+  color: rgb(216, 193, 165);
+  width: 650px;
+  border: 5px solid red;
+  margin-right: 100px;
 }
 
-#bold-text{
-    font-weight: 700;
+/*-----------*/
+
+/* Background Section*/
+
+#background{
+  margin-top: 150px;
+  display: flex;
+  border: 8px solid white;
+  justify-content: center;
+  align-items: first baseline;
+  
 }
 
 #normal{
-    color: rgb(216, 193, 165);
-    font-family: "Bellota Text", sans-serif;
-    font-weight: 300;
-    font-size: 17px;
+  color: rgb(216, 193, 165);
+  font-family: "Bellota Text", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  border: 5px solid red;
+  
 }
 
 #red{
-    color: rgb(234, 89, 89);
-    margin-left: 60%;
-    font-family: "Funnel Display";
-    font-size: 18px;
+  color: rgb(234, 89, 89);
+  font-family: "Funnel Display";
+  font-size: 18px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-.column {
-  float: left;
-  padding: 10px;
-}
-
-.left {
-  width: 55%;
-}
-
-.right {
-  width: 45%;
+#bold-text{
+  font-weight: 700;
 }
