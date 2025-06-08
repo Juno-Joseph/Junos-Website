@@ -1,4 +1,7 @@
-
+:root{
+  --pj-height: 200px;
+  --pj-width: 400px
+}
 .pixelify-sans{
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
@@ -56,24 +59,24 @@ body{
 /* Background Section*/
 
 #background{
-  margin-top: 150px;
+  margin-top: 250px;
   display: flex;
   border: 8px solid white;
   justify-content: center;
   align-items: first baseline;
-  
+  margin-right: 100px;
+  flex-wrap: wrap;
 }
 
-#normal{
+#bg_normal{
   color: rgb(216, 193, 165);
   font-family: "Bellota Text", sans-serif;
   font-weight: 300;
   font-size: 17px;
   border: 5px solid red;
-  
 }
 
-#red{
+#bg_title{
   color: rgb(234, 89, 89);
   font-family: "Funnel Display";
   font-size: 18px;
@@ -84,3 +87,80 @@ body{
 #bold-text{
   font-weight: 700;
 }
+
+/* Skills Section*/
+
+#skills{
+  display: flex;
+  border: 8px solid white;
+  justify-content: center;
+  align-items: top;
+  flex-wrap: wrap;
+  margin-top: 250px;
+  margin-right: 200px;
+}
+
+#sk_title{
+  color: rgb(234, 89, 89);
+  font-family: "Funnel Display";
+  font-size: 18px;
+  border: 5px solid red;
+  margin-right: 100px;
+  margin-left: 225px;
+}
+
+#sk_normal{
+  color: rgb(216, 193, 165);
+  font-family: "Bellota Text", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  border: 5px solid red;
+}
+
+/* -------- */
+
+/* Project Section */
+
+#projects{
+  display: flex;
+  border: 8px solid white;
+  justify-content: center;
+  align-items: top;
+  flex-wrap: wrap;
+  margin-top: 250px;
+}
+
+#images{
+  display: flex;
+  flex-direction: column;
+}
+
+#captions{
+  height: 200px;
+  color: rgb(216, 193, 165);
+  font-family: "Bellota Text", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+#pj_title{
+  color: rgb(234, 89, 89);
+  font-family: "Funnel Display";
+  font-size: 18px;
+  border: 5px solid red;
+  margin-right: 100px;
+}
+
+#imgw{
+  width: var(--pj-width);
+  height: var(--pj-height);
+  border: 5px solid red;
+}
+
+.caption{
+  border: 5px solid red;
+  height: var(--pj-height);
+  margin-bottom: 0px;
+  width: 150px;
+}
+
