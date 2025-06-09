@@ -74,14 +74,14 @@ body{
   color: rgb(216, 193, 165);
   font-family: "Bellota Text", sans-serif;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 21px;
   border: 5px solid #ffffff00;
 }
 
 #bg_title{
   color: rgb(234, 89, 89);
   font-family: "Funnel Display";
-  font-size: 18px;
+  font-size: 22px;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -106,7 +106,7 @@ body{
 #sk_title{
   color: rgb(234, 89, 89);
   font-family: "Funnel Display";
-  font-size: 18px;
+  font-size: 22px;
   border: 5px solid #ffffff00;
   margin-right: 100px;
   margin-left: 225px;
@@ -116,7 +116,7 @@ body{
   color: rgb(216, 193, 165);
   font-family: "Bellota Text", sans-serif;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 21px;
   border: 5px solid #ffffff00;
 }
 
@@ -146,14 +146,14 @@ body{
   color: rgb(216, 193, 165);
   font-family: "Bellota Text", sans-serif;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 21px;
   flex-shrink: 1;
 }
 
 #pj_title{
   color: rgb(234, 89, 89);
   font-family: "Funnel Display";
-  font-size: 18px;
+  font-size: 22px;
   border: 5px solid #ffffff00;
   margin-right: 100px;
   margin-left:  200px;
@@ -218,7 +218,7 @@ a:hover{
 
 /* Media Queries */
 
-@media (max-width: 600px) {
+@media (max-width: 1075px) {
   #bg_normal, #captions, #sk_normal{
     font-size: 9px;
   }
