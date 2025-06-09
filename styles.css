@@ -1,6 +1,6 @@
 :root{
-  --pj-height: 200px;
-  --pj-width: 400px
+  --pj-height: 450px;
+  --pj-width: 800px
 }
 .pixelify-sans{
   font-family: "Pixelify Sans", sans-serif;
@@ -162,6 +162,6 @@ body{
   border: 5px solid red;
   height: var(--pj-height);
   margin-bottom: 0px;
-  width: 150px;
+  width: 350px;
 }
 
