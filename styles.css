@@ -131,12 +131,14 @@ body{
   align-items: top;
   margin-top: 250px;
   flex-shrink: 1;
+  width: 100%;
 }
 
 #images{
   display: flex;
   flex-direction: column;
   flex-shrink: 1;
+  max-width: 100%;
 }
 
 #captions{
@@ -169,9 +171,11 @@ body{
 .caption{
   border: 5px solid #ffffff00;
   height: var(--pj-height);
-  margin-bottom: 200px;
   width: 250px;
+  margin-bottom: 200px;
   flex-shrink: 1;
+  overflow-y: scroll;
+  scrollbar-color: rgb(234, 89, 89) white;
 }
 
 /* ---------- /
@@ -210,4 +214,50 @@ footer{
 a:hover{
   color: rgb(187, 69, 69);
   transition: color 0.3s;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  #bg_normal, #captions, #sk_normal{
+    font-size: 9px;
+  }
+  #pj_title, #bg_title, #sk_title{
+    font-size: 10px;
+    margin-right: 20px;
+  }
+  #background{
+    justify-content: left;
+    flex-wrap: nowrap;
+  }
+  #bg_title{
+    margin-left: 5px;
+    margin-right:5px;
+  }
+  #bg_normal{
+    margin-right: 0px;
+    margin-left: 5px;
+  }
+  #skills{
+    justify-content: left;
+    margin-right: 0px;
+  }
+  #sk_title{
+    margin-left: 5px;
+  }
+  #imgw{
+    max-width: 208px;
+    max-height: 117px;
+    margin-bottom: 50px;
+  }
+  .caption{
+    max-height: 117px;
+    max-width: 80px;
+    margin-bottom: 50px;
+  }
+  
+  #pj_title{
+    margin-left: 0px;
+  }
+
 }
