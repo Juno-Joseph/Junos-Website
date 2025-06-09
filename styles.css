@@ -37,7 +37,7 @@ body{
 /* Intro Section*/
 #Hello{
   display: flex;
-  border: 8px solid white;
+  border: 8px solid #ffffff00;
   justify-content: center;
   align-items: center;
   margin-top: 150px;
@@ -50,7 +50,7 @@ body{
   font-weight: 300;
   color: rgb(216, 193, 165);
   width: 650px;
-  border: 5px solid red;
+  border: 5px solid #ffffff00;
   margin-right: 100px;
 }
 
@@ -61,7 +61,7 @@ body{
 #background{
   margin-top: 250px;
   display: flex;
-  border: 8px solid white;
+  border: 8px solid #ffffff00;
   justify-content: center;
   align-items: first baseline;
   margin-right: 100px;
@@ -73,7 +73,7 @@ body{
   font-family: "Bellota Text", sans-serif;
   font-weight: 300;
   font-size: 17px;
-  border: 5px solid red;
+  border: 5px solid #ffffff00;
 }
 
 #bg_title{
@@ -92,7 +92,7 @@ body{
 
 #skills{
   display: flex;
-  border: 8px solid white;
+  border: 8px solid #ffffff00;
   justify-content: center;
   align-items: top;
   flex-wrap: wrap;
@@ -104,7 +104,7 @@ body{
   color: rgb(234, 89, 89);
   font-family: "Funnel Display";
   font-size: 18px;
-  border: 5px solid red;
+  border: 5px solid #ffffff00;
   margin-right: 100px;
   margin-left: 225px;
 }
@@ -114,7 +114,7 @@ body{
   font-family: "Bellota Text", sans-serif;
   font-weight: 300;
   font-size: 17px;
-  border: 5px solid red;
+  border: 5px solid #ffffff00;
 }
 
 /* -------- */
@@ -123,7 +123,7 @@ body{
 
 #projects{
   display: flex;
-  border: 8px solid white;
+  border: 8px solid #ffffff00;
   justify-content: center;
   align-items: top;
   flex-wrap: wrap;
@@ -147,21 +147,74 @@ body{
   color: rgb(234, 89, 89);
   font-family: "Funnel Display";
   font-size: 18px;
-  border: 5px solid red;
+  border: 5px solid #ffffff00;
   margin-right: 100px;
-  margin-left: 100px;
+  margin-left:  590px;
 }
 
 #imgw{
   width: var(--pj-width);
   height: var(--pj-height);
-  border: 5px solid red;
+  border: 5px solid #ffffff00;
+  margin-bottom: 200px;
 }
 
 .caption{
-  border: 5px solid red;
+  border: 5px solid #ffffff00;
   height: var(--pj-height);
-  margin-bottom: 0px;
-  width: 350px;
+  margin-bottom: 200px;
+  width: 250px;
 }
 
+/* ---------- /
+
+/* Footer */
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+#inspo{
+  width: 200px;
+}
+
+#credits{
+  color: rgb(216, 193, 165);
+  padding: 4rem 1rem;
+  font-family: "Funnel Display";
+  font-weight: 600;
+}
+
+/* footer{
+  color: rgb(216, 193, 165);
+  padding: 4rem 1rem;
+  font-family: "Funnel Display";
+  font-weight: 600;
+}
+
+footer a{
+  color: rgb(234, 89, 89);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover{
+  color: rgb(191, 76, 76);
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-main{
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.footer-column{
+  flex-basis: 200px;
+  flex-grow: 1;
+  text-align: center;
+} */
