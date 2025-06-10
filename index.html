@@ -10,10 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Funnel+Display:wght@300..800&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
     
 <body>
 
-    <!--Beggining of web page-->
+    <!--Beginning of web page-->
   <section id="Hello">
     <h1 class="intro">Hello! <br> <br> <br>
       My Name is <span style="font-family: Pixelify Sans, sans-serif">Juno Joseph</span>,
@@ -22,7 +23,7 @@
       I am currently working on projects and looking 
       to gain more experience in the industry.
     </h1>
-    <img style="border: 5px solid #ffffff00;" src="https://cdn-icons-png.freepik.com/512/1802/1802977.png" alt="temp_icon">
+    <img style="border: 5px solid #ffffff00;" src="" alt="temp_icon">
   </section>
 
   <section id="background">
@@ -72,28 +73,33 @@
     <p id="pj_title">PROJECTS</p>
     <section id="images">
       <a href="https://github.com/Juno-Joseph/Pochita-Eating-Game">
-      <img id="imgw" src="https://github.com/Juno-Joseph/Simple-Website/blob/main/Assets/Pochita%20website.gif?raw=true" alt="Pochita Game">
+      <img id="imgw" src="https://github.com/Juno-Joseph/Junos-Website/blob/main/Assets/Pochita%20website.gif?raw=true" alt="Pochita Game">
       </a>
       <a href="https://github.com/Juno-Joseph/Quick-Draw">
-      <img id="imgw" src="https://github.com/Juno-Joseph/Simple-Website/blob/main/Assets/QD%20website.gif?raw=true" alt="Quick Draw">
+      <img id="imgw" src="https://github.com/Juno-Joseph/Junos-Website/blob/main/Assets/QD%20website.gif?raw=true" alt="Quick Draw">
       </a>
       <a href="https://junozj.itch.io/knight-platformer">
-      <img id="imgw" src="https://github.com/Juno-Joseph/Simple-Website/blob/main/Assets/KP%20website.gif?raw=true" alt="Knight Platformer">
+      <img id="imgw" src="https://github.com/Juno-Joseph/Junos-Website/blob/main/Assets/KP%20website.gif?raw=true" alt="Knight Platformer">
       </a>
       <a href="https://github.com/Juno-Joseph/Mash-Runner">
-      <img id="imgw" src="https://github.com/Juno-Joseph/Simple-Website/blob/main/Assets/MR%20website.gif?raw=true" alt="Mash Runner">
+      <img id="imgw" src="https://github.com/Juno-Joseph/Junos-Website/blob/main/Assets/MR%20website.gif?raw=true" alt="Mash Runner">
       </a>
       <a href="https://github.com/Juno-Joseph/Break-Out-Remake">
-      <img id="imgw" src="https://github.com/Juno-Joseph/Simple-Website/blob/main/Assets/BO%20website.gif?raw=true" alt="Break Out">
+      <img id="imgw" src="https://github.com/Juno-Joseph/Junos-Website/blob/main/Assets/BO%20website.gif?raw=true" alt="Break Out">
       </a>
       <a href="https://junozj.itch.io/pong">
-      <img id="imgw" src="https://github.com/Juno-Joseph/Simple-Website/blob/main/Assets/Pong%20Website.gif?raw=true" alt="Pong">
+      <img id="imgw" src="https://github.com/Juno-Joseph/Junos-Website/blob/main/Assets/Pong%20Website.gif?raw=true" alt="Pong">
       </a>
     </section>
     <section id="captions">
       <p class="caption"> 
-        <span id="bold-text">Pochita Game</span> <br> <br>
-        description
+        <span id="bold-text">Pochita Game - currently in progress</span> <br> <br>
+        Pochita Game, made in GoDot, focuses on feeding a dog named Pochita and 
+        depending on what you feed him he will respond accordingly. 
+        This is my first full on Solo Project where everything was 
+        made by me completely. From the art to the sounds, I was able
+        to implement different aspects of my creativity into this project.
+        
       </p>
       <p class="caption"> 
         <span id="bold-text">Quick Draw</span> <br> <br>
@@ -120,30 +126,38 @@
       </p>
       <p class="caption"> 
         <span id="bold-text">Mash Runner</span><br> <br>
-        description
+        Mash Runner is a minigame made using Unreal Engine 5.
+        The objective of the game is to quickly press the left
+        and right arrow keys to beat the CPU in a race to the finish line.
+        It is harder than it looks because the buttons cannot be pressed
+        at the same time. 
       </p>
       <p class="caption"> 
         <span id="bold-text">Break Out</span><br> <br>
-        description
+        Remake of the game 'Break Out' made in Godot. After 
+        working on the Pong game I was able to use the knowledge
+        of how characters can slide and collide with each other to 
+        complete this game.
       </p>
       <p class="caption"> 
         <span id="bold-text">Pong</span><br> <br>
-        Simple 2 player pong recreation made with 
-        only previous knowledge from Knight Platformer Game. 
-        Use W, S for left paddle Use Arrow Keys for right Paddle
+        2 player pong recreation made in GoDot with 
+        previous knowledge from Knight Platformer Game. 
+        Use W, S for left paddle, Use up and down
+        Arrow Keys for right Paddle.
       </p>
     </section>
   </section>
-  
   <footer>
-    <div id="inspo">
+  <div id="inspo">
+  
       <p id="credits">
         Developed by Juno Joseph | 2025
         Inspired by Joeb Rogers</p>
-    </div>
+  </div>
 
     <div id="links">
-      <a href="mailto:junojsph@gmail.com" class="links">Email</a>
+      <a href="mailto:junojsph@gmail.com" onclick="copy()" class="links" id="email">Email</a>
       <a href="https://github.com/Juno-Joseph" class="links">GitHub</a>
       <a href="https://junozj.itch.io/" class="links">Itch.io</a>
       <a href="https://www.linkedin.com/in/juno-joseph-276466257/" class="links">Linkedin</a>

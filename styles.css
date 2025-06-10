@@ -166,6 +166,8 @@ body{
   border: 5px solid #ffffff00;
   margin-bottom: 200px;
   flex-shrink: 1;
+  transition: 0.3s;
+  border-radius: 10px;
 }
 
 .caption{
@@ -176,6 +178,10 @@ body{
   flex-shrink: 1;
   overflow-y: scroll;
   scrollbar-color: rgb(234, 89, 89) rgba(255, 255, 255, 0);
+}
+
+#imgw:hover{
+  transform: scale(1.03);
 }
 
 /* ---------- /
